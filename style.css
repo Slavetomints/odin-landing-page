@@ -136,3 +136,36 @@ button {
     color: #1F2937;
     font-weight: bold;
 }
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+}
+
+.blue-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    padding: 5% 10%;
+    border-radius: 20px;
+    gap: 50px
+}
+
+.blue-box-item {
+    margin-right: auto;
+}
+
+.call {
+    margin-bottom: auto;
+}
+
+.blue-box button {
+    border-color: white;
+    width: 125px;
+    height: 35px;
+}
