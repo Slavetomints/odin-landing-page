@@ -83,3 +83,35 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-header {
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.information-box {
+    width: 200px;
+}
+
+.information-image {
+    border: 4px #3882F6 solid;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+}
+
